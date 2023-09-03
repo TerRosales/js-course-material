@@ -46,3 +46,5 @@ console.log (firstName + ' is from ' + country + ' and he inherits the power of 
 const hotaroNew = `I am ${firstName} from the land of ${country} and my inheritance is from the God of ${inheritance}, it is please to meet you!`;
 
 console.log (hotaroNew)
+
+console.log (`Hotaro has set up for his journey to where? well, before we jump into that let up get a glance of our Hero's past. . . .`)
