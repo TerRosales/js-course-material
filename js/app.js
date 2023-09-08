@@ -179,8 +179,8 @@
 // let populationLow = 90000;
 // const legalAge = 10;
 
-
-const day = 'monday';
+// Switch 
+const day = 'thursday';
 
 switch(day){
     case 'monday': // means the same as - day === 'monday'
@@ -204,7 +204,10 @@ switch(day){
         console.log ('Work at 6:30pm - 12:30am');
         console.log ('Exercise a little bit, both coding and your actual body');
         console.log ('Class at 2pm, Be on time');
-        console.log ('Stay ahead of your main challenger which is the present you!');
+        console.log ('Stay ahead of your main challenger which is the present you!'); 
+    break;
+    case 'friday':
+        console.log ('No work, no school help Rosy as much as possible today!!')
     break;
     case 'saturday':
         console.log ('Class at 10am, Be on time');
@@ -213,4 +216,28 @@ switch(day){
         console.log ('Work at 6:30pm - 12:30am');
         console.log ('Exercise a little bit, both coding and your actual body');
     break;
-} console.log ("hello world");
+} 
+
+if (day === 'monday') {
+    console.log ('Work at 6:30pm - 12:30am');
+    console.log ('Do Homework and try not to fall behind');
+    console.log ('Exercise a little bit, both coding and your actual body');
+    console.log ('Make sure to help Rosy as much as you can');
+} else if (day === 'tuesday' || day === 'thursday') {
+    console.log ('Work at 6:30pm - 5:00am');
+    console.log ('Exercise a little bit, both coding and your actual body');
+    console.log ('Class at 2pm, Be on time');
+    console.log ('Stay ahead of your main challenger which is the present you!');
+} else if (day === 'wednesday') {
+    console.log ('Work at 6:30pm - 12:30am');
+    console.log ('Exercise a little bit, both coding and your actual body');
+    console.log ('Do JS practices');
+} else if (day === 'friday') {
+    console.log ('No work, no school help Rosy as much as possible today!!')
+} else if (day === 'saturday') {
+    console.log ('Class at 10am, Be on time');
+} else {
+    console.log ('Work at 6:30pm - 12:30am');
+    console.log ('Exercise a little bit, both coding and your actual body');
+    console.log ('Start of the week let\'s give it our all');
+}
