@@ -112,40 +112,18 @@
 // } else {
 //     console.log ("oh no! you did not fill the height section, get back and finish that");
 // }
+// const favoriteNumber = prompt ("what is your favorite number?");
 
-
-let firstName = "Hotaro";
-let country = 'Erhoda';
-let continent = 'Area 5';
-let population = 8392;
-let isIsland = true;
-let language = "English";
-const inheritance = "Creation"
-const currentYear = "2058"
-const ageHotaro = currentYear - 2050;
-const ageMiyuka = currentYear - 301;
-const hotaroBirthYear = currentYear - ageHotaro;
-let populationDisqualified = 50000;
-let populationHigh = 500000;
-let populationAverage = 300000;
-let populationLow = 90000;
-const legalAge = 10;
-<<<<<<< HEAD
-=======
-
-
-const favoriteNumber = prompt ("what is your favorite number?");
-
-if (favoriteNumber == 30 ) {
-    console.log ("dang you old");
-} else if (favoriteNumber >= 20){
-    console.log ("dang you a stud!");
-} else if (favoriteNumber < 20){
-    console.log ("you a baby!");
-} else {
-    console.log ("you cant be serious!")
-}
-console.log (typeof favoriteNumber);
+// if (favoriteNumber == 30 ) {
+//     console.log ("dang you old");
+// } else if (favoriteNumber >= 20){
+//     console.log ("dang you a stud!");
+// } else if (favoriteNumber < 20){
+//     console.log ("you a baby!");
+// } else {
+//     console.log ("you cant be serious!")
+// }
+// console.log (typeof favoriteNumber);
 
 // let numNeighbours = 0;
 // numNeighbours = 
@@ -171,7 +149,6 @@ console.log (typeof favoriteNumber);
 // } else {
 //     console.log ("Please come back once you have currencies for the cheapest item otherwise, window shopping is not permitted")
 // }
->>>>>>> 2b379af4804c81e293d6ad685c87441bf2cafaf4
 
 // Challenge 2 SUCCESSFUL
 // const tjScore = ((60 + 60 + 60) / 3);
@@ -184,3 +161,22 @@ console.log (typeof favoriteNumber);
 // } else if (tjScore >= 60 && rosyScore >= 60){
 //     console.log ("No one wins!")
 // }
+
+let firstName = "Hotaro";
+let country = 'Erhoda';
+let continent = 'Area 5';
+let population = 8392;
+let isIsland = true;
+let language = "English";
+const inheritance = "Creation"
+const currentYear = "2058"
+const ageHotaro = currentYear - 2050;
+const ageMiyuka = currentYear - 301;
+const hotaroBirthYear = currentYear - ageHotaro;
+let populationDisqualified = 50000;
+let populationHigh = 500000;
+let populationAverage = 300000;
+let populationLow = 90000;
+const legalAge = 10;
+
+
