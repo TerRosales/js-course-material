@@ -113,6 +113,38 @@ let populationHigh = 500000;
 let populationAverage = 300000;
 let populationLow = 90000;
 const legalAge = 10;
+
+
+const favoriteNumber = prompt ("what is your favorite number?");
+
+if (favoriteNumber == 30 ) {
+    console.log ("dang you old");
+} else if (favoriteNumber >= 20){
+    console.log ("dang you a stud!");
+} else if (favoriteNumber < 20){
+    console.log ("you a baby!");
+} else {
+    console.log ("you cant be serious!")
+}
+console.log (typeof favoriteNumber);
+
+// let numNeighbours = 0;
+// numNeighbours = 
+// console.log (typeof numNeighbours);
+// prompt ("how many neighbour country to we have?")
+// if (numNeighbours === 1) {
+//     console.log ( "You have only one neightbor country and they heavily depend on your country for plenty of resources")
+// } else if (numNeighbours == 2) {
+//     console.log ("We only have one neighbor, not unless there is an unknown village that is currently petitioning a country solidification approval")
+// } else if (numNeighbours == 5) {
+//     console.log ("Thats too much we need to absorb 1 or 2 of them to expand!")
+// } else {
+//     console.log ("We have 0 Neighbors, We must take action an expand!")
+// }
+// console.log (typeof numNeighbours);
+
+
+
 // To be continued
 // const bountyBucks = 0;
 // if (bountyBucks) {
