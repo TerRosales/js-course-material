@@ -97,6 +97,23 @@
 // const showThree = ('19' - '13' + 17);
 // console.log (showThree);
 
+
+// To be continued
+// const bountyBucks = 0;
+// if (bountyBucks) {
+//     console.log ("Please select the merchendise your would like to purchase");
+// } else {
+//     console.log ("Please come back once you have currencies for the cheapest item otherwise, window shopping is not permitted")
+// }
+
+// let height;
+// if (height) {
+//     console.log ("You inputed your height")
+// } else {
+//     console.log ("oh no! you did not fill the height section, get back and finish that");
+// }
+
+
 let firstName = "Hotaro";
 let country = 'Erhoda';
 let continent = 'Area 5';
@@ -113,17 +130,15 @@ let populationHigh = 500000;
 let populationAverage = 300000;
 let populationLow = 90000;
 const legalAge = 10;
-// To be continued
-// const bountyBucks = 0;
-// if (bountyBucks) {
-//     console.log ("Please select the merchendise your would like to purchase");
-// } else {
-//     console.log ("Please come back once you have currencies for the cheapest item otherwise, window shopping is not permitted")
-// }
 
-// let height;
-// if (height) {
-//     console.log ("You inputed your height")
-// } else {
-//     console.log ("oh no! you did not fill the height section, get back and finish that");
+// Challenge 2 SUCCESSFUL
+// const tjScore = ((60 + 60 + 60) / 3);
+// const rosyScore = ((60 + 60 + 60) / 3);
+
+// if (tjScore > rosyScore && tjScore >= 60) {
+//     console.log ("TJ Won!");
+// } else if (rosyScore > tjScore && rosyScore >= 60) {
+//     console.log ("Rosy Won!")
+// } else if (tjScore >= 60 && rosyScore >= 60){
+//     console.log ("No one wins!")
 // }
