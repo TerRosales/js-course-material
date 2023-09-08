@@ -162,21 +162,55 @@
 //     console.log ("No one wins!")
 // }
 
-let firstName = "Hotaro";
-let country = 'Erhoda';
-let continent = 'Area 5';
-let population = 8392;
-let isIsland = true;
-let language = "English";
-const inheritance = "Creation"
-const currentYear = "2058"
-const ageHotaro = currentYear - 2050;
-const ageMiyuka = currentYear - 301;
-const hotaroBirthYear = currentYear - ageHotaro;
-let populationDisqualified = 50000;
-let populationHigh = 500000;
-let populationAverage = 300000;
-let populationLow = 90000;
-const legalAge = 10;
+// let firstName = "Hotaro";
+// let country = 'Erhoda';
+// let continent = 'Area 5';
+// let population = 8392;
+// let isIsland = true;
+// let language = "English";
+// const inheritance = "Creation"
+// const currentYear = "2058"
+// const ageHotaro = currentYear - 2050;
+// const ageMiyuka = currentYear - 301;
+// const hotaroBirthYear = currentYear - ageHotaro;
+// let populationDisqualified = 50000;
+// let populationHigh = 500000;
+// let populationAverage = 300000;
+// let populationLow = 90000;
+// const legalAge = 10;
 
 
+const day = 'monday';
+
+switch(day){
+    case 'monday': // means the same as - day === 'monday'
+        console.log ('Work at 6:30pm - 12:30am');
+        console.log ('Do Homework and try not to fall behind');
+        console.log ('Exercise a little bit, both coding and your actual body');
+        console.log ('Make sure to help Rosy as much as you can');
+    break;
+    case 'tuesday':
+        console.log ('Work at 6:30pm - 5:00am');
+        console.log ('Exercise a little bit, both coding and your actual body');
+        console.log ('Class at 2pm, Be on time');
+        console.log ('Stay ahead of your main challenger which is the present you!');
+    break;
+    case 'wednesday':
+        console.log ('Work at 6:30pm - 12:30am');
+        console.log ('Exercise a little bit, both coding and your actual body');
+        console.log ('Do JS practices');
+    break;
+    case 'thursday':
+        console.log ('Work at 6:30pm - 12:30am');
+        console.log ('Exercise a little bit, both coding and your actual body');
+        console.log ('Class at 2pm, Be on time');
+        console.log ('Stay ahead of your main challenger which is the present you!');
+    break;
+    case 'saturday':
+        console.log ('Class at 10am, Be on time');
+    break;
+    case 'sunday':
+        console.log ('Work at 6:30pm - 12:30am');
+        console.log ('Exercise a little bit, both coding and your actual body');
+    break;
+} console.log ("hello world");
