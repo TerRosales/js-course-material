@@ -292,3 +292,18 @@
 // } else {
 //     console.log (grimStatus);
 // }
+
+// Using Ternary Conditional Operator on Temporal Literal
+// let grimGauge = 0.5;
+
+// console.log (`Combat Status: ${grimGauge >= 0.3 ? 'Engaged' :  'Neutral'}`)
+
+
+// Challenge 4 
+// const bill = 275;
+// const tip = bill / 100 * 15;
+// const tip2 = bill / 100 * 20;
+// const total = bill + tip;
+// const total2 = bill + tip2;
+
+// console.log (`The bill was ${bill}, the tip was ${tip}, and the total value ${bill >= 50 ? total : total2 }.`)
