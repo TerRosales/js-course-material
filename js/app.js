@@ -180,64 +180,115 @@
 // const legalAge = 10;
 
 // Switch 
-const day = 'thursday';
+// const day = 'thursday';
 
-switch(day){
-    case 'monday': // means the same as - day === 'monday'
-        console.log ('Work at 6:30pm - 12:30am');
-        console.log ('Do Homework and try not to fall behind');
-        console.log ('Exercise a little bit, both coding and your actual body');
-        console.log ('Make sure to help Rosy as much as you can');
-    break;
-    case 'tuesday':
-        console.log ('Work at 6:30pm - 5:00am');
-        console.log ('Exercise a little bit, both coding and your actual body');
-        console.log ('Class at 2pm, Be on time');
-        console.log ('Stay ahead of your main challenger which is the present you!');
-    break;
-    case 'wednesday':
-        console.log ('Work at 6:30pm - 12:30am');
-        console.log ('Exercise a little bit, both coding and your actual body');
-        console.log ('Do JS practices');
-    break;
-    case 'thursday':
-        console.log ('Work at 6:30pm - 12:30am');
-        console.log ('Exercise a little bit, both coding and your actual body');
-        console.log ('Class at 2pm, Be on time');
-        console.log ('Stay ahead of your main challenger which is the present you!'); 
-    break;
-    case 'friday':
-        console.log ('No work, no school help Rosy as much as possible today!!')
-    break;
-    case 'saturday':
-        console.log ('Class at 10am, Be on time');
-    break;
-    case 'sunday':
-        console.log ('Work at 6:30pm - 12:30am');
-        console.log ('Exercise a little bit, both coding and your actual body');
-    break;
-} 
+// switch(day){
+//     case 'monday': // means the same as - day === 'monday'
+//         console.log ('Work at 6:30pm - 12:30am');
+//         console.log ('Do Homework and try not to fall behind');
+//         console.log ('Exercise a little bit, both coding and your actual body');
+//         console.log ('Make sure to help Rosy as much as you can');
+//     break;
+//     case 'tuesday':
+//         console.log ('Work at 6:30pm - 5:00am');
+//         console.log ('Exercise a little bit, both coding and your actual body');
+//         console.log ('Class at 2pm, Be on time');
+//         console.log ('Stay ahead of your main challenger which is the present you!');
+//     break;
+//     case 'wednesday':
+//         console.log ('Work at 6:30pm - 12:30am');
+//         console.log ('Exercise a little bit, both coding and your actual body');
+//         console.log ('Do JS practices');
+//     break;
+//     case 'thursday':
+//         console.log ('Work at 6:30pm - 12:30am');
+//         console.log ('Exercise a little bit, both coding and your actual body');
+//         console.log ('Class at 2pm, Be on time');
+//         console.log ('Stay ahead of your main challenger which is the present you!'); 
+//     break;
+//     case 'friday':
+//         console.log ('No work, no school help Rosy as much as possible today!!')
+//     break;
+//     case 'saturday':
+//         console.log ('Class at 10am, Be on time');
+//     break;
+//     case 'sunday':
+//         console.log ('Work at 6:30pm - 12:30am');
+//         console.log ('Exercise a little bit, both coding and your actual body');
+//     break;
+// } 
 
-if (day === 'monday') {
-    console.log ('Work at 6:30pm - 12:30am');
-    console.log ('Do Homework and try not to fall behind');
-    console.log ('Exercise a little bit, both coding and your actual body');
-    console.log ('Make sure to help Rosy as much as you can');
-} else if (day === 'tuesday' || day === 'thursday') {
-    console.log ('Work at 6:30pm - 5:00am');
-    console.log ('Exercise a little bit, both coding and your actual body');
-    console.log ('Class at 2pm, Be on time');
-    console.log ('Stay ahead of your main challenger which is the present you!');
-} else if (day === 'wednesday') {
-    console.log ('Work at 6:30pm - 12:30am');
-    console.log ('Exercise a little bit, both coding and your actual body');
-    console.log ('Do JS practices');
-} else if (day === 'friday') {
-    console.log ('No work, no school help Rosy as much as possible today!!')
-} else if (day === 'saturday') {
-    console.log ('Class at 10am, Be on time');
-} else {
-    console.log ('Work at 6:30pm - 12:30am');
-    console.log ('Exercise a little bit, both coding and your actual body');
-    console.log ('Start of the week let\'s give it our all');
-}
+
+//  if else version
+// if (day === 'monday') {
+//     console.log ('Work at 6:30pm - 12:30am');
+//     console.log ('Do Homework and try not to fall behind');
+//     console.log ('Exercise a little bit, both coding and your actual body');
+//     console.log ('Make sure to help Rosy as much as you can');
+// } else if (day === 'tuesday' || day === 'thursday') {
+//     console.log ('Work at 6:30pm - 5:00am');
+//     console.log ('Exercise a little bit, both coding and your actual body');
+//     console.log ('Class at 2pm, Be on time');
+//     console.log ('Stay ahead of your main challenger which is the present you!');
+// } else if (day === 'wednesday') {
+//     console.log ('Work at 6:30pm - 12:30am');
+//     console.log ('Exercise a little bit, both coding and your actual body');
+//     console.log ('Do JS practices');
+// } else if (day === 'friday') {
+//     console.log ('No work, no school help Rosy as much as possible today!!')
+// } else if (day === 'saturday') {
+//     console.log ('Class at 10am, Be on time');
+// } else {
+//     console.log ('Work at 6:30pm - 12:30am');
+//     console.log ('Exercise a little bit, both coding and your actual body');
+//     console.log ('Start of the week let\'s give it our all');
+// }
+
+// Switch Statement Exercise 
+// let language = 'mandarin';
+
+// switch (language) {
+//     case 'english':
+//         console.log ('3rd place');
+//     break;
+//     case 'chinese':
+//     case 'mandarin':
+//         console.log ('MOST number of native speakers!');
+//     break;
+//     case 'spanish':
+//         console.log ('2nd place in number of native speakers');
+//     break;
+//     case 'hindi':
+//         console.log ('Number 4');
+//     break;
+//     case 'arabic':
+//         console.log ('5th most spoken language');
+//     break;
+//     case 'other':
+//         console.log ('Great Language Too!');
+//     break;
+// }
+
+// Ternary Conditional Operator
+
+// const grimGauge = 0.1;
+
+// const grimMode = grimGauge;
+// Dirty Way
+// grimGauge >= 0.3 ? console.log ('You are now actively on combat mode') : console.log ('Please Hammer out if you\'d like to cause more damage');
+
+// Normal if else statement
+// if (grimGauge >= 0.3) {
+//     console.log ('You are now actively on combat mode');
+// } else {
+//     console.log ('Please Hammer out if you\'d like to cause more damage')
+// };
+
+// Clean Way
+// const grimStatus = grimGauge >= 0.3 ? ('Combat Mode Active') :  ('Combat Mode is not engaged'); console.log (grimStatus)
+
+// if (grimGauge >= 0.3) {
+//     console.log (grimStatus);
+// } else {
+//     console.log (grimStatus);
+// }
