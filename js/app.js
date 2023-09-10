@@ -307,3 +307,76 @@
 // const total2 = bill + tip2;
 
 // console.log (`The bill was ${bill}, the tip was ${tip}, and the total value ${bill >= 50 ? total : total2 }.`)
+
+
+
+// Function
+
+// declaring
+
+// function checker () {
+//     console.log (`Checking this function.......... its fine`);
+// }
+
+// calling
+
+// checker();
+
+// checker();
+
+// checker();
+
+
+// function balanceGauge(greenGauge, whiteGauge) {
+//     const syncrostat = `Green gauge currently at level ${greenGauge} and white gauge is currently at level ${whiteGauge}`;
+//     return syncrostat;
+// }
+
+// const checker = balanceGauge(40, 50);
+// console.log(checker);
+
+// const checker2 = balanceGauge(60, 10);
+// console.log(checker2);
+
+
+// Exercise Function
+// function describeCountry(person, country, population, capitalCity) {
+//     return (`${country} has ${population} people and its capital city is ${capitalCity}`);
+// }
+// function describeCountry(personName, country, population, capitalCity) {
+//     return (`Agent ${personName}, currently residing in ${country} which has ${population} people and its capital city is ${capitalCity}`);
+// }
+// const hotaroLocation = describeCountry('Hotaro', 'Ehroda', 18935, 'Shinso Capital');
+// const miyumiLocation = describeCountry('Miyumi', 'Rebo', 146235, 'Dattun Capital');
+// const johnarLocation = describeCountry('Johnar', 'Zhibanzo', 433235, 'Havocan Capital');
+// const zakLocation = describeCountry('Zak', 'Koyouru Village', 13235, 'Koyouru Capital');
+
+// console.log(`${hotaroLocation}`);
+// console.log(`${miyumiLocation}`);
+// console.log (`${johnarLocation}`);
+// console.log (`${zakLocation}`);
+
+
+// 2 Function types
+
+// Function Declatation
+
+// function describeCountry(personName, country, population, capitalCity) {
+//     return (`Agent ${personName}, currently residing in ${country} which has ${population} people and its capital city is ${capitalCity}`);
+// }
+// const person1 = describeCountry('Hotaro', 'Ehroda', 18935, 'Shinso Capital');
+// console.log (person1);
+
+// Function Expression
+
+// const describeCountry2 = function (personName, country, population, capitalCity) {
+//     return (`Agent ${personName}, currently residing in ${country} which has ${population} people and its capital city is ${capitalCity}`);
+// }
+
+// const person2 = describeCountry2('Hotaro', 'Ehroda', 18935, 'Shinso Capital');
+
+
+// console.log (person2);
+
+
+
