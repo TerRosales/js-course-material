@@ -380,3 +380,48 @@
 
 
 
+// Arrow Function 
+
+// function expression comparison
+// const HP = 300;
+// const HP2 = 38347;
+// const calcNormalAttack = function (damage) {
+//     return HP - damage;
+// }
+// Arrow Key Practice Example:
+
+// Example one:
+
+// const person1 = calcNormalAttack(30);
+
+// const calcNormalAttack2 = damage => HP2 - damage;
+// const person2 = calcNormalAttack2(30);
+
+// console.log(person1, person2);
+
+// Example Two: 
+
+// const maxHP = (hit, remainingHP) => {
+//     const damageTaken = 150000 - hit;
+//     const afterDamage = 150000 - damageTaken;
+//     return `You just took ${damageTaken} your is now down to ${afterDamage} health, Please restore your health back to ${remainingHP}`;
+// }
+
+// console.log (maxHP(12334, 150000))
+
+
+// Functions calling other Functions
+
+// const cutPieces = function (fruit) {
+//     return fruit * 4;
+// }
+
+// function fruitProcessor(apples, oranges) {
+//     const appleSlices = cutPieces(apples);
+//     const orangeSlices = cutPieces(oranges);
+
+
+//     const juice = `Juice has ${appleSlices} apples slices and ${orangeSlices} oranges slices.`;
+//     return juice;
+// }
+// console.log(fruitProcessor(5, 30))
