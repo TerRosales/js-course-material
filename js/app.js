@@ -472,39 +472,53 @@
 // Lecture Exercise 
 
 // funtion declaration version
+
 function percentageOfWorld1(population) {
-    const percentageCount = ((population / 7900000000) * 100).toFixed(2);
-    console.log(`This Country's population takes ${percentageCount}%  of the world's population`);
+    return((population / 7900000000) * 100).toFixed(2);
+    // console.log(`This Country's population takes ${percentageCount}%  of the world's population`);
 }
 
-const chinaPopulation = percentageOfWorld1(1441000000);
+// const chinaPopulation = percentageOfWorld1(1441000000);
 
-const germanyPopulation = percentageOfWorld1(903000000);
+// const germanyPopulation = percentageOfWorld1(903000000);
 
-const  ehrodaPopulation = percentageOfWorld1(1364325);
-console.log(`break`);
-// function expression version
+// const  ehrodaPopulation = percentageOfWorld1(1364325);
 
-const percentageOfWorld2 = function (population) {
-    const percentageCount2 = ((population / 7900000000) * 100).toFixed(2);
-    console.log(`This Country's population takes ${percentageCount2}% of the world's population`);
+// console.log(`break`);
+
+// // function expression version
+
+// const percentageOfWorld2 = function (population) {
+//     const percentageCount2 = ((population / 7900000000) * 100).toFixed(2);
+//     console.log(`This Country's population takes ${percentageCount2}% of the world's population`);
+// }
+
+// const chinaPopulation2 = percentageOfWorld2(1441000000);
+
+// const germanyPopulation2 = percentageOfWorld2(903000000);
+
+// const  ehrodaPopulation2 = percentageOfWorld2(1364325);
+
+// // function 'ARROW' version
+
+// console.log(`break`);
+
+// const percentageOfWorld3 = (population) => {
+//     const percentageCount3 = ((population / 7900000000) * 100).toFixed(2)
+// console.log(`This Country's population takes ${percentageCount3}% of the world's population`);
+// }
+
+// const chinaPopulation3 = percentageOfWorld3(1441000000);
+
+// const germanyPopulation3 = percentageOfWorld3(903000000);
+
+// const  ehrodaPopulation3 = percentageOfWorld3(1364325);
+
+
+
+function describePopulation(country , population) {
+    const countryPercentage = percentageOfWorld1(1441000000);
+    console.log(`${country} has ${population} million people, which is about ${countryPercentage}% of the world.`);
 }
 
-const chinaPopulation2 = percentageOfWorld2(1441000000);
-
-const germanyPopulation2 = percentageOfWorld2(903000000);
-
-const  ehrodaPopulation2 = percentageOfWorld2(1364325);
-
-// function 'ARROW' version
-console.log(`break`);
-const percentageOfWorld3 = (population) => {
-    const percentageCount3 = ((population / 7900000000) * 100).toFixed(2)
-console.log(`This Country's population takes ${percentageCount3}% of the world's population`);
-}
-
-const chinaPopulation3 = percentageOfWorld3(1441000000);
-
-const germanyPopulation3 = percentageOfWorld3(903000000);
-
-const  ehrodaPopulation3 = percentageOfWorld3(1364325);
+describePopulation('Ehroda', 1441000000);
