@@ -425,3 +425,47 @@
 //     return juice;
 // }
 // console.log(fruitProcessor(5, 30))
+
+
+// Function Exercise
+
+// const calcAverage = function (score1, score2, score3) {
+//     return (score1 + score2 + score3) / 3;
+//     }
+//     // const scoreDolphins = calcAverage(44, 23, 71);
+//     // const scoreKoalas = calcAverage(65 , 54, 49);
+//     const scoreDolphins = calcAverage(44, 23, 71);
+//     const scoreKoalas = calcAverage(23 , 34, 27);
+
+// function checkWinner(avgDolphines, avgKoalas) {
+//     if(avgDolphines > avgKoalas * 2) {
+//         console.log(`Dolphins win (${scoreDolphins} vs. ${scoreKoalas})`)
+//     } else if (avgKoalas > avgDolphines * 2) {
+//         console.log (`Koalas win (${scoreKoalas} vs. ${scoreDolphins})`)
+//     } else {
+//         console.log(`No team wins...`)
+//     }
+// }
+
+// const winner1 = checkWinner(46, 60)
+
+// second form
+const calcAverage = (a, b, c) => (a + b + c) / 3;
+
+
+// Test 1 
+const scoreDolphins = calcAverage(60, 60, 60);
+const scoreKoalas = calcAverage(60, 60, 60);
+console.log(scoreDolphins, scoreKoalas);
+
+const checkWinner = function (avgDolphins, avgKoalas) {
+    if (avgDolphins >= 2 * avgKoalas) {
+        console.log(`Dolphins Win`);
+    } else if (avgKoalas >= 2 * avgDolphins) {
+        console.log(`Koalas Win`);
+    } else {
+        console.log('No one wins!')
+    }
+}
+
+checkWinner(scoreDolphins, scoreKoalas);
