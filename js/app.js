@@ -179,7 +179,7 @@
 // let populationLow = 90000;
 // const legalAge = 10;
 
-// Switch 
+// Switch Function
 // const day = 'thursday';
 
 // switch(day){
@@ -473,10 +473,10 @@
 
 // funtion declaration version
 
-function percentageOfWorld1(population) {
-    return((population / 7900000000) * 100).toFixed(2);
+// function percentageOfWorld1(population) {
+//     return((population / 7900000000) * 100).toFixed(2);
     // console.log(`This Country's population takes ${percentageCount}%  of the world's population`);
-}
+//}
 
 // const chinaPopulation = percentageOfWorld1(1441000000);
 
@@ -516,9 +516,136 @@ function percentageOfWorld1(population) {
 
 
 
-function describePopulation(country , population) {
-    const countryPercentage = percentageOfWorld1(1441000000);
-    console.log(`${country} has ${population} million people, which is about ${countryPercentage}% of the world.`);
-}
+// function describePopulation(country , population) {
+//     const countryPercentage = percentageOfWorld1(1441000000);
+//     console.log(`${country} has ${population} million people, which is about ${countryPercentage}% of the world.`);
+// }
 
-describePopulation('Ehroda', 1441000000);
+// describePopulation('Ehroda', 1441000000);
+
+// Javascript Arrays
+
+// normal variables
+// const friend1 = 'theseus';
+// const friend2 = 'rosy';
+// const friend3 = 'ivana';
+
+// using array 
+
+// const familyMembers = ['Theseus', 'Rosy', 'Ivana', 'Naveah'];
+// // console.log(familyMembers[0]);
+
+// const birthYear = [2014, 1997, 2017];
+// // console.log(birthYear[0]);
+
+// const favoriteFood = ['Fries', 'Chilli Peppers', 'Chicken Adobo', 'Broccoli Cheddar Soup'];
+// // console.log(favoriteFood[0]);
+
+// const favoriteActivity = ['Animating', 'Pooping', 'Watching Youtube', 'Being A Baby'];
+// // console.log(favoriteActivity[0]);
+
+// // console.log(`${familyMembers[0]} is an amazing part of our family, born on the year ${birthYear[0]}and loves ${favoriteFood[0]} and ${favoriteActivity[0]}.`);
+
+// Array Length 
+
+//console.log(familyMembers[familyMembers.length - 3]);
+// console.log(familyMembers[familyMembers.length - 2]);
+
+// Example 2
+
+// Array With Function
+// const kidGroupOne = ['Jacob', 'Sushi', 'Drake', 'Susan', 'Popeye'];
+
+// const kidGroupOne_Hobbies = ['Gaming', 'Basketball', 'Dancing', 'Guitar', 'Soccer'];
+
+// const choresRequired = ['Dishes', 'Fold Clothes', 'Replace Trash', 'Take-Out Trash', 'Dust/Wipe Down and Sweep/Vacuum', 'Empty The Dish Washer'];
+
+// const kidGroupOne_Grades_Math = [89, 92, 99, 90, 76];
+
+// const kidGroupOne_Grades_Science = [80, 87, 95, 92, 80];
+
+// const kidGroupOne_Grades_PhyEd = [90, 85, 90, 79, 84];
+
+// const kidGroupOne_Grades_ArtMusic = [90, 91, 89, 94, 79];
+
+// const kidGroupOne_Grades_SocStudies = [94, 90, 83, 90, 84];
+
+// const getPoints = function (kidGroupOne_Grades_Math) {
+//     if(kidGroupOne_Grades_Math >= 95) {
+//         console.log('You Earned 1000 points! Keep It Up')
+//     }
+// }
+
+// const reward = getPoints(99)
+
+// Chaging a Value in an array 
+
+// const kidGroupOne = ['Jacob', 'Sushi', 'Drake', 'Susan', 'Popeye'];
+
+// console.log(kidGroupOne)
+// kidGroupOne[0] = 'Miles';
+// kidGroupOne[1] = 'Munanio';
+// kidGroupOne[2] = 'Andrew';
+// kidGroupOne[3] = 'Ivana';
+// kidGroupOne[4] = 'Theseus';
+
+// console.log(kidGroupOne);
+
+// Array Practices (point system)
+// userCurrentPoints = 1000
+
+// const calcPoints = function (points) {
+//     return 1000 + points;
+// }
+
+// const userEarnedPoints = [100, 200, 400, 1000, 400]
+
+// const jacob = calcPoints(userEarnedPoints[0]);
+// const loala = calcPoints(userEarnedPoints[1]);
+// const jack = calcPoints(userEarnedPoints[3]);
+// const roland = calcPoints(userEarnedPoints[userEarnedPoints.length - 1]);
+
+// console.log(jacob, loala, jack, roland);
+
+// const scoreList = [calcPoints(userEarnedPoints[0]), calcPoints(userEarnedPoints[1]), calcPoints(userEarnedPoints[2]),calcPoints(userEarnedPoints[3]), userEarnedPoints]
+
+// console.log(scoreList)
+
+// Array Practices (user system)
+
+// const hobbies = ['Animating', 'Drawing', 'Soccer', 'Basketball', 'Coding'];
+// const choreList = ['Dishes', 'Fold Clothes', 'Replace Trash', 'Take-Out Trash', 'Dust/Wipe Down and Sweep/Vacuum', 'Empty The Dish Washer'];
+// const gradeList = [94, 90, 83, 90, 84];
+// const specialAchievementList = ['Leadership Badge', 'Helpfulness Badge', 'Respectful Badge', 'Academic Badge', 'Hall Master', 'Chore Master', 'Master Of Subjects'];
+// const friends = ['jacob', 'sina', 'lorel', 'john', 'troy'];
+// const student_info = ['4th Grade','717 Louisedale Dr. 46808', 'July 2 , 2014', 'Type 1 Diabetic'];
+
+// const theseus = [student_info[0],  hobbies[0], choreList[0,2,3,4], gradeList[0], specialAchievementList[0], friends[0,1]];
+
+// console.log(theseus);
+const kidName = ['Theseus', 'Ivana', 'Nevaeh'];
+const kidcurrentPoints = [190823, 1283, 543]
+const gradeMath = 90;
+const gradeSocStud = 90;
+const gradePhyEd = 88;
+const gradeEnglish = 82;
+const extraPoints = 82;
+const chorePoints = 90;
+const gradeList = [gradeEnglish, gradeMath, gradeSocStud, gradePhyEd, extraPoints, chorePoints]
+const kidProfile = [kidName[0], kidcurrentPoints[0], gradeList]
+const gradeTotal = function(gradeEnglish, gradeMath, gradeSocStud, gradePhyEd, extraPoints, chorePoints) {
+    return (gradeEnglish + gradeMath + gradePhyEd + gradeSocStud + chorePoints + extraPoints) / 6;
+};
+
+const afterMessage = function(currentPoints){
+    const final = gradeTotal(gradeEnglish,gradeMath,gradePhyEd,gradeSocStud, extraPoints, chorePoints) + currentPoints;
+    return final
+
+}
+console.log(afterMessage(kidcurrentPoints[2]), kidProfile)
+
+// console.log(gradeTotal(90, 90, 88, 82, 82, 90))
+
+// const calcTotalPoints = function(points) {
+//     return 
+// }
