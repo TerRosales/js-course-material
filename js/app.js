@@ -623,29 +623,56 @@
 // const theseus = [student_info[0],  hobbies[0], choreList[0,2,3,4], gradeList[0], specialAchievementList[0], friends[0,1]];
 
 // console.log(theseus);
-const kidName = ['Theseus', 'Ivana', 'Nevaeh'];
-const kidcurrentPoints = [190823, 1283, 543]
-const gradeMath = 90;
-const gradeSocStud = 90;
-const gradePhyEd = 88;
-const gradeEnglish = 82;
-const extraPoints = 82;
-const chorePoints = 90;
-const gradeList = [gradeEnglish, gradeMath, gradeSocStud, gradePhyEd, extraPoints, chorePoints]
-const kidProfile = [kidName[0], kidcurrentPoints[0], gradeList]
-const gradeTotal = function(gradeEnglish, gradeMath, gradeSocStud, gradePhyEd, extraPoints, chorePoints) {
-    return (gradeEnglish + gradeMath + gradePhyEd + gradeSocStud + chorePoints + extraPoints) / 6;
-};
+// const kidName = ['Theseus', 'Ivana', 'Nevaeh'];
+// const kidcurrentPoints = [190823, 1283, 543]
+// const gradeMath = 90;
+// const gradeSocStud = 90;
+// const gradePhyEd = 88;
+// const gradeEnglish = 82;
+// const extraPoints = 82;
+// const chorePoints = 90;
+// const gradeList = [gradeEnglish, gradeMath, gradeSocStud, gradePhyEd, extraPoints, chorePoints]
+// const kidProfile = [kidName[0], kidcurrentPoints[0], gradeList]
+// const gradeTotal = function(gradeEnglish, gradeMath, gradeSocStud, gradePhyEd, extraPoints, chorePoints) {
+//     return (gradeEnglish + gradeMath + gradePhyEd + gradeSocStud + chorePoints + extraPoints) / 6;
+// };
 
-const afterMessage = function(currentPoints){
-    const final = gradeTotal(gradeEnglish,gradeMath,gradePhyEd,gradeSocStud, extraPoints, chorePoints) + currentPoints;
-    return final
+// const afterMessage = function(currentPoints){
+//     const final = gradeTotal(gradeEnglish,gradeMath,gradePhyEd,gradeSocStud, extraPoints, chorePoints) + currentPoints;
+//     return final
 
-}
-console.log(afterMessage(kidcurrentPoints[2]), kidProfile)
+// }
+// console.log(afterMessage(kidcurrentPoints[2]), kidProfile)
 
 // console.log(gradeTotal(90, 90, 88, 82, 82, 90))
 
-// const calcTotalPoints = function(points) {
-//     return 
-// }
+// Javascript Objects
+
+birthYear = 2021
+const calcAge = (age) => {
+    return 2025 - birthYear;
+}
+
+
+const neveah = {
+    firstName: 'Naveah',
+    age: calcAge(birthYear),
+    birthday: 'November 2, 2021',
+    gender: 'Female',
+    status: 'Capable',
+    hobbies: ['Watching Youtube', 'Playing with Toys', 'Drinking Breast Milk']
+};
+// const interestedIn = prompt('Please enter your favorite activities youtube, playing, drinking beast milk') 
+    
+neveah.birthCountry = 'USA';
+neveah['birthParents'] = ['Terrence Rosales', 'Rosy Moe'];
+
+console.log(neveah);
+// if(neveah[interestedIn]) {
+//         console.log(neveah[interestedIn]);
+// } else { 
+//     console.log('thats is so boring');
+// };
+
+// console.log(`${neveah.firstName} has ${neveah.hobbies.length} friends and her favorite hobby is ${neveah.hobbies[0]}.`)
+
