@@ -648,31 +648,54 @@
 
 // Javascript Objects
 
-birthYear = 2021
-const calcAge = (age) => {
-    return 2025 - birthYear;
+// birthYear = 2021
+// const calcAge = (age) => {
+//     return 2025 - birthYear;
+// }
+
+
+const theseus = {
+    firstName: 'Theseus',
+    age: 2,
+    birthYear: 2021,
+    math: 80,
+    science: 82,
+    socialStud: 83,
+    birthday: 'July 2, 2014',
+    gender: 'Male',
+    status: 'Capable',
+    hobbies: ['Watching Youtube', 'Reading', 'Animating'],
+    hasDriversLicense: false,
+// Javascript THIS property
+    calcGradeAvg: function() {
+        return (this.math + this.science + this.socialStud) / 3
+    },
+    getGender: function() {
+        if (this.gender === 'Male') {
+            return 'he';
+    }else {
+        return 'she'};
+    }
 }
 
+console.log(`${theseus.firstName} is a ${theseus.gender} student from Huntertown Elementary and his favorite hobbies are ${theseus.hobbies[0]}, ${theseus.hobbies[1]}, ${theseus.hobbies[2]}, ${theseus.getGender()}s, average grade is currently at ${theseus.calcGradeAvg().toFixed(2)}%.`)
 
-const neveah = {
-    firstName: 'Naveah',
-    age: calcAge(birthYear),
-    birthday: 'November 2, 2021',
-    gender: 'Female',
-    status: 'Capable',
-    hobbies: ['Watching Youtube', 'Playing with Toys', 'Drinking Breast Milk']
-};
+// console.log (theseus.calcGradeAvg());
 // const interestedIn = prompt('Please enter your favorite activities youtube, playing, drinking beast milk') 
-    
-neveah.birthCountry = 'USA';
-neveah['birthParents'] = ['Terrence Rosales', 'Rosy Moe'];
 
-console.log(neveah);
+// Javascript Dot and Bracket Notations
+
+// neveah.birthCountry = 'USA'; - adds a property to an object
+// neveah['birthParents'] = ['Terrence Rosales', 'Rosy Moe']; - adds a property to an object
+// console.log(neveah);
 // if(neveah[interestedIn]) {
 //         console.log(neveah[interestedIn]);
 // } else { 
 //     console.log('thats is so boring');
 // };
-
 // console.log(`${neveah.firstName} has ${neveah.hobbies.length} friends and her favorite hobby is ${neveah.hobbies[0]}.`)
+
+
+
+
 
