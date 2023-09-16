@@ -654,31 +654,31 @@
 // }
 
 
-const theseus = {
-    firstName: 'Theseus',
-    age: 2,
-    birthYear: 2021,
-    math: 80,
-    science: 82,
-    socialStud: 83,
-    birthday: 'July 2, 2014',
-    gender: 'Male',
-    status: 'Capable',
-    hobbies: ['Watching Youtube', 'Reading', 'Animating'],
-    hasDriversLicense: false,
-// Javascript THIS property
-    calcGradeAvg: function() {
-        return (this.math + this.science + this.socialStud) / 3
-    },
-    getGender: function() {
-        if (this.gender === 'Male') {
-            return 'he';
-    }else {
-        return 'she'};
-    }
-}
+// const theseus = {
+//     firstName: 'Theseus',
+//     age: 2,
+//     birthYear: 2021,
+//     math: 80,
+//     science: 82,
+//     socialStud: 83,
+//     birthday: 'July 2, 2014',
+//     gender: 'Male',
+//     status: 'Capable',
+//     hobbies: ['Watching Youtube', 'Reading', 'Animating'],
+//     hasDriversLicense: false,
+// // Javascript THIS property
+//     calcGradeAvg: function() {
+//         return (this.math + this.science + this.socialStud) / 3
+//     },
+//     getGender: function() {
+//         if (this.gender === 'Male') {
+//             return 'he';
+//     }else {
+//         return 'she'};
+//     }
+// }
 
-console.log(`${theseus.firstName} is a ${theseus.gender} student from Huntertown Elementary and his favorite hobbies are ${theseus.hobbies[0]}, ${theseus.hobbies[1]}, ${theseus.hobbies[2]}, ${theseus.getGender()}s, average grade is currently at ${theseus.calcGradeAvg().toFixed(2)}%.`)
+// console.log(`${theseus.firstName} is a ${theseus.gender} student from Huntertown Elementary and his favorite hobbies are ${theseus.hobbies[0]}, ${theseus.hobbies[1]}, ${theseus.hobbies[2]}, ${theseus.getGender()}s, average grade is currently at ${theseus.calcGradeAvg().toFixed(2)}%.`)
 
 // console.log (theseus.calcGradeAvg());
 // const interestedIn = prompt('Please enter your favorite activities youtube, playing, drinking beast milk') 
@@ -697,5 +697,33 @@ console.log(`${theseus.firstName} is a ${theseus.gender} student from Huntertown
 
 
 
+
+
+const mark = {
+    fullName: "Mark",
+    mass: 28.3,
+    height: 1.69,
+    birthYear: 1992,
+    // calcBMI: function(){
+    //     return 2023 - this.birthYear
+    // }
+    calcAge: function(){
+        this.age = 2023 - this.birthYear
+        return this.age;
+    }
+};
+console.log(mark.age);
+console.log(mark.calcAge());
+
+console.log(mark.age);
+
+// const john = {
+//     fullName: "John",
+//     mass: 92,
+//     height: 1.95,
+//     calcBMI: function () { 
+//         this.BMI = this.mass / (this.height * this.height);
+//     }
+// }
 
 
