@@ -636,7 +636,6 @@
 // const gradeTotal = function(gradeEnglish, gradeMath, gradeSocStud, gradePhyEd, extraPoints, chorePoints) {
 //     return (gradeEnglish + gradeMath + gradePhyEd + gradeSocStud + chorePoints + extraPoints) / 6;
 // };
-<<<<<<< HEAD
 
 // const afterMessage = function(currentPoints){
 //     const final = gradeTotal(gradeEnglish,gradeMath,gradePhyEd,gradeSocStud, extraPoints, chorePoints) + currentPoints;
@@ -648,34 +647,34 @@
 
 // bracket notation
 
-currentYear = 2023
+// currentYear = 2023
 
-const theseus = {
-    firstName: "Theseus",
-    lastName: "Rosales",
-    age: currentYear - 2014,
-    gradeLevel: 4,
-    friends: ["Troy", "Jackson", "Malachi"],
-    gradeMath: 90,
-    gradeSocStud: 90,
-    gradePhyEd: 88,
-    gradeEnglish: 82,
-    gradeHistory: 82,
-    gradeGeography: 90
-};
+// const theseus = {
+//     firstName: "Theseus",
+//     lastName: "Rosales",
+//     age: currentYear - 2014,
+//     gradeLevel: 4,
+//     friends: ["Troy", "Jackson", "Malachi"],
+//     gradeMath: 90,
+//     gradeSocStud: 90,
+//     gradePhyEd: 88,
+//     gradeEnglish: 82,
+//     gradeHistory: 82,
+//     gradeGeography: 90
+// };
 
-const nameKey = "Name";
+// const nameKey = "Name";
 
-console.log(theseus);
+// console.log(theseus);
 
-console.log(theseus.lastName);
+// console.log(theseus.lastName);
 
-console.log(theseus.firstName);
+// console.log(theseus.firstName);
 
 
-console.log(theseus["first" + nameKey]);
+// console.log(theseus["first" + nameKey]);
 
-console.log(theseus["last" + nameKey]);
+// console.log(theseus["last" + nameKey]);
 
 // const interestedIn = prompt("Tell me what would you like to know about theseus?(firstName, lastName, age, gradeLevel, friends, gradeMath, gradeSocStud, gradePhyEd, gradeEnglish, gradeHistory, gradeGeography)");
 
@@ -683,104 +682,11 @@ console.log(theseus["last" + nameKey]);
 //     console.log(theseus[interestedIn]);
 // };
 
-theseus.address = {
-    street: "Louisedale Drive",
-    homeNumber: "717",
-    city: "Fort Wayne",
-    state: "Indiana",
-    zipCode: 46808
-}
-console.log(`${theseus["first" + nameKey]} is an amazing grade ${theseus.gradeLevel} students that excels on most of his classes, he enjoys hanging out with ${theseus.friends}.`);
-=======
-
-// const afterMessage = function(currentPoints){
-//     const final = gradeTotal(gradeEnglish,gradeMath,gradePhyEd,gradeSocStud, extraPoints, chorePoints) + currentPoints;
-//     return final
-
+// theseus.address = {
+//     street: "Louisedale Drive",
+//     homeNumber: "717",
+//     city: "Fort Wayne",
+//     state: "Indiana",
+//     zipCode: 46808
 // }
-// console.log(afterMessage(kidcurrentPoints[2]), kidProfile)
-
-// console.log(gradeTotal(90, 90, 88, 82, 82, 90))
-
-// Javascript Objects
-
-// birthYear = 2021
-// const calcAge = (age) => {
-//     return 2025 - birthYear;
-// }
-
-
-// const theseus = {
-//     firstName: 'Theseus',
-//     age: 2,
-//     birthYear: 2021,
-//     math: 80,
-//     science: 82,
-//     socialStud: 83,
-//     birthday: 'July 2, 2014',
-//     gender: 'Male',
-//     status: 'Capable',
-//     hobbies: ['Watching Youtube', 'Reading', 'Animating'],
-//     hasDriversLicense: false,
-// // Javascript THIS property
-//     calcGradeAvg: function() {
-//         return (this.math + this.science + this.socialStud) / 3
-//     },
-//     getGender: function() {
-//         if (this.gender === 'Male') {
-//             return 'he';
-//     }else {
-//         return 'she'};
-//     }
-// }
-
-// console.log(`${theseus.firstName} is a ${theseus.gender} student from Huntertown Elementary and his favorite hobbies are ${theseus.hobbies[0]}, ${theseus.hobbies[1]}, ${theseus.hobbies[2]}, ${theseus.getGender()}s, average grade is currently at ${theseus.calcGradeAvg().toFixed(2)}%.`)
-
-// console.log (theseus.calcGradeAvg());
-// const interestedIn = prompt('Please enter your favorite activities youtube, playing, drinking beast milk') 
-
-// Javascript Dot and Bracket Notations
-
-// neveah.birthCountry = 'USA'; - adds a property to an object
-// neveah['birthParents'] = ['Terrence Rosales', 'Rosy Moe']; - adds a property to an object
-// console.log(neveah);
-// if(neveah[interestedIn]) {
-//         console.log(neveah[interestedIn]);
-// } else { 
-//     console.log('thats is so boring');
-// };
-// console.log(`${neveah.firstName} has ${neveah.hobbies.length} friends and her favorite hobby is ${neveah.hobbies[0]}.`)
-
-
-
-
-
-const mark = {
-    fullName: "Mark",
-    mass: 28.3,
-    height: 1.69,
-    birthYear: 1992,
-    // calcBMI: function(){
-    //     return 2023 - this.birthYear
-    // }
-    calcAge: function(){
-        this.age = 2023 - this.birthYear
-        return this.age;
-    }
-};
-console.log(mark.age);
-console.log(mark.calcAge());
-
-console.log(mark.age);
-
-// const john = {
-//     fullName: "John",
-//     mass: 92,
-//     height: 1.95,
-//     calcBMI: function () { 
-//         this.BMI = this.mass / (this.height * this.height);
-//     }
-// }
-
-
->>>>>>> f6d2c39dc3efb178785e347c236140438b6134cf
+// console.log(`${theseus["first" + nameKey]} is an amazing grade ${theseus.gradeLevel} students that excels on most of his classes, he enjoys hanging out with ${theseus.friends}.`);
