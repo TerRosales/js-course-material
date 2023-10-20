@@ -690,3 +690,46 @@
 //     zipCode: 46808
 // }
 // console.log(`${theseus["first" + nameKey]} is an amazing grade ${theseus.gradeLevel} students that excels on most of his classes, he enjoys hanging out with ${theseus.friends}.`);
+
+const currentYear = 2023;
+
+const ivana = {
+    firstName: 'Ivana',
+    lastName: 'Rosales',
+    birthYear: 2017,
+    gradeLevel: 1,
+    friends: ["Layla", "November", "Nora"],
+    gradeMath: 87,
+    gradeSocStud: 89,
+    gradePhyEd: 91,
+    gradeEnglish: 89,
+    gradeHistory: 99,
+    gradeGeography: 100,
+    street: "Louisedale Drive",
+    homeNumber: "717",
+    city: "Fort Wayne",
+    state: "Indiana",
+    zipCode: 46808,
+    isDiabetic: true,
+    calcAge: function() {
+        return currentYear - this.birthYear;
+    }
+}
+console.log(ivana.calcAge());
+console.log(ivana['calcAge']());
+
+// console.log('lap around the block 1');
+// console.log('lap around the block 2');
+// console.log('lap around the block 3');
+// console.log('lap around the block 4');
+// console.log('lap around the block 5');
+// console.log('lap around the block 6');
+// console.log('lap around the block 7');
+// console.log('lap around the block 8');
+// console.log('lap around the block 9');
+// console.log('lap around the block 10');
+
+
+// for (var i = 1 ; i <= 20 ; i++) {
+//     console.log(`lap around the block ${i}`);
+// }
