@@ -691,33 +691,37 @@
 // }
 // console.log(`${theseus["first" + nameKey]} is an amazing grade ${theseus.gradeLevel} students that excels on most of his classes, he enjoys hanging out with ${theseus.friends}.`);
 
-const currentYear = 2023;
+// const currentYear = 2023;
 
-const ivana = {
-    firstName: 'Ivana',
-    lastName: 'Rosales',
-    birthYear: 2017,
-    gradeLevel: 1,
-    friends: ["Layla", "November", "Nora"],
-    gradeMath: 87,
-    gradeSocStud: 89,
-    gradePhyEd: 91,
-    gradeEnglish: 89,
-    gradeHistory: 99,
-    gradeGeography: 100,
-    street: "Louisedale Drive",
-    homeNumber: "717",
-    city: "Fort Wayne",
-    state: "Indiana",
-    zipCode: 46808,
-    isDiabetic: true,
-    calcAge: function() {
-        return currentYear - this.birthYear;
-    }
-}
-console.log(ivana.calcAge());
-console.log(ivana['calcAge']());
+// const ivana = {
+//     firstName: 'Ivana',
+//     lastName: 'Rosales',
+//     birthYear: 2017,
+//     gradeLevel: 1,
+//     friends: ["Layla", "November", "Nora"],
+//     gradeMath: 87,
+//     gradeSocStud: 89,
+//     gradePhyEd: 91,
+//     gradeEnglish: 89,
+//     gradeHistory: 99,
+//     gradeGeography: 100,
+//     street: "Louisedale Drive",
+//     homeNumber: "717",
+//     city: "Fort Wayne",
+//     state: "Indiana",
+//     zipCode: 46808,
+//     isDiabetic: true,
+//     calcAge: function() {
+//         return currentYear - this.birthYear;
+//     }
+// }
+// console.log(ivana.calcAge());
+// console.log(ivana['calcAge']());
 
+
+// Loops
+
+// For loop
 // console.log('lap around the block 1');
 // console.log('lap around the block 2');
 // console.log('lap around the block 3');
@@ -733,3 +737,45 @@ console.log(ivana['calcAge']());
 // for (var i = 1 ; i <= 20 ; i++) {
 //     console.log(`lap around the block ${i}`);
 // }
+
+
+// Looping Arrays , continiue and break keyword
+// const types = []
+
+
+// const naveah = [
+//     "Naveah",
+//     "Rosales",
+//     "717 Louisedale Dr. Fort Wayne ,IN 46808",
+//     2,
+//     2021,
+//     true
+// ]
+
+// console.log(naveah.length)
+
+// for (let i = 0 ; i < naveah.length ; i++) {
+//     // types[i] =  typeof naveah[i];
+//     types.push(typeof naveah[i]);
+// };
+
+// Continue and Break
+// years = [1992, 1997, 2017, 2021, 2014]
+// ages = []
+
+// console.log(`text sep`)
+// for (let i = 0 ; i < naveah.length ; i++) {
+//     if (typeof naveah[i] !== "string") continue ;
+//         console.log(naveah[i], typeof naveah[i]);
+//     };
+//     console.log(`text sep`)
+// for (let i = 0 ; i < naveah.length ; i++) {
+//     if (typeof naveah[i] !== "number") continue ;
+//         console.log(naveah[i], typeof naveah[i]);
+//     };
+//     console.log(`text sep`)
+// for (let i = 0 ; i < naveah.length ; i++) {
+//     if (typeof naveah[i] !== "boolean") break ;
+//         console.log(`we found the truest of all`);
+//     };
+
